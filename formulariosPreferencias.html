@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+
+
+
+<body style="background-color: rgb(255, 255, 255);">
+    <h1 style="color: red;">ESTE ES EL FORMULARIO</h1>
+    <form>
+        <label style="display: inline-block"; width="300"; color: rgb(55, 0, 255); for="name" >Nombre Completo</label>
+    <input type="text" placeholder="escriba su nombre" id="name" name="name" 
+    style="background-color: rgb(0, 255, 76);
+     width: 300px;
+     border:3px solid blue;
+     border-radius:5px;
+     padding:3x;"/> /#name
+    <br/>
+    <label for="email" style="color: rgb(2, 255, 23); width: 100px;">Nombre del email</label>
+    <input type="email" placeholder="escriba su e-mail" id="email" name="email" width="30px"/>
+    <br/>
+    <label width="30px" for="pais" style="color: green;">Pais:</label>
+    <select style="display: inline-block;" width="100px" id="pais" name="pais">
+        <option>Seleccione el pais</option>
+        <option value="Colombia">Colombia</option>
+        <option value="Ecuador">Ecuador</option>
+        <option value="Bolivia">Bolivia</option>
+        <option value="Mexico">Mexico</option>
+        </select> /#pais
+        <br/>
+        <label for="Genero">Genero:</label>
+        <input type="radio" id="Masculino" name="Genero" value="Masculino" checked> Masculino
+        <input type="radio" id="Femenino" name="Genero" value="Femenino"> Femenino
+        <input type="radio" id="Otro" name="Genero" value="Otro"> Otro
+        <br/>
+        <input type="checkbox" id="musica" value="musica" name="preferencias"> musica
+        <label for="musica"></label>
+        <input type="checkbox" id="deporte" value="deporte" name="preferencias"> deporte
+        <label for="deporte"></label>
+        <input type="checkbox" id="tecnologia" value="tecnologia" name="preferencias"> tecnologia
+        <label for="tecnologia"></label>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpiar">
+        <button type="submit">OK</button>
+        <button type="reset">Clean</button>
+        <br/>
+    </form> 
+</body>
+</html>
