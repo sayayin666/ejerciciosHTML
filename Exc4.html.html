@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica1</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        aside {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <h1>aprendiendo HTML</h1>
+    <p>HTML es un lenguaje de marcado de hipertexto, que es el lenguaje fundamental que se utiliza para estructurar y organizar  el contenido de las paginas web.</p>
+    <ol>
+        <li>primer paso: abre tu editor de codigo preferido</li>
+        <li>segundo paso: crea un archivo de HTML seguido del nombre + un "." e implicita y seguidamente "html"</li>
+        <li>tercer paso: crea la estructura básica de HTML unsando la tecla (shift) + 1 en tu teclado numérico que está encima de tu teclado de letras</li>
+    </ol>
+    <img width="1800px" src="https://ireland.apollo.olxcdn.com/v1/files/3x7ynf28s3001-PL/image;s=2040x1360" alt="Nissan Silvia S15">
+    <br><br>
+    <a href="https://www.sena.edu.co/">sena.edu.co</a>
+    <br><br>
+    <table>
+        <tr>
+            <th>curso 1: como ser millonario en un paso</th>
+            <th>curso 2: desarrollo de software</th>
+            <th>curso 3: marketing digital</th>
+        </tr>
+        <tr>
+            <td>8:30am</td>
+            <td>8:30am</td>
+            <td>8:30am</td>
+        </tr>
+        <tr>
+            <td>10:30am</td>
+            <td>10:30am</td>
+            <td>10:30am</td>
+        </tr>
+    </table>
+    <div>
+        <p style="color: red;">mi color favorito es el rojo</p>
+        <p>mi color favorito es el <span style="color: blue;">azul</span></p>
+    </div>
+    <br><br>
+    <p>la etiqueta "(link)" en HTML se usa para establecer una relación entre el documento actual y un recurso externo, como una hoja de estilos CSS o un favicon.
+    Se coloca en la seccion "(head)" de la pagina y utiliza el atributo "href" para indicar la ubicaciín del recurso relacionado. </p>
+    <br>
+    <p>Uso común:
+    Enlazar hojas de estilo CSS:
+    Se usa para vincular una hoja de estilo externa a la página, lo que permite aplicar estilos a los elementos de la página.
+    Añadir un favicon:
+    Se utiliza para definir la imagen que se mostrará como icono de la página en la barra de pestañas del navegador.</p>
+    <section>
+        <article>
+            <h2>Este es el titulo del articulo</h2>
+            <p>Este es el parrafo del articulo</p>
+        </article>
+        <aside>
+            <ul>
+                <li><a href="#enlace1">enlace 1</a></li>
+                <li><a href="#enlace2">enlace 2</a></li>
+                <li><a href="#enlace3">enlace 3</a></li>
+            </ul>
+        </aside>
+    </section>
+    <div>
+        <form>
+            <label for="nom">nombre</label>
+            <input type="text" id="nom" name="nombre">
+            <br>
+            <label for="mail">correo electronico</label>
+            <input type="email" id="mail" name="correoElectronico">
+            <br><br>
+            <textarea name="" id="">escribe un comentario</textarea>
+            <br><br>
+            <input type="radio" id="masculino" name="genero" value="Masculino" checked >Masculino
+            <input type="radio" id="femenino" name="genero" value="Femenino">Femenino
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
