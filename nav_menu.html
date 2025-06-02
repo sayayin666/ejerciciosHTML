@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            width: 400px;
+            background: purple;
+            padding: 200px;
+            border: 3px solid gray;
+            border-radius: 5px;
+            margin: 20px;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+        }
+        li{
+            padding: 10px;
+            margin: 3px;
+        }
+        h2{
+            color: white;
+        }
+        p{
+            color: white;
+        }
+
+        .sectionp{
+            width: 100px;
+            
+        }
+        nav{
+            color: rgb(255, 238, 0);
+            background-color: black;
+        }
+        a{
+            color: green;
+            text-decoration:none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">inicio</a></li>
+                <li><a href="#nosotros">nosotros</a></li>
+                <li><a href="#servicios">servicios</a></li>
+                <li><a href="#productos">productos</a>
+                    <ul>
+                        <li><a href="desweb">desarrollo web</a></li>
+                        <li><a href="desprot">desarrollo prototipos</a></li>
+                        <li><a href="desjav">desarrollo javaScript</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>esta es la secciòn de inicio</p>
+        </section>
+        <section id="nosotros">
+            <h2>Nosotros</h2>
+            <p>esta es la secciòn de nosotros</p>
+        </section>
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <p>esta es la secciòn de servicios</p>
+        </section>
+        <section id="productos">
+            <h2>Productos</h2>
+            <p>esta es la secciòn de productos</p>
+                <section id="desweb" class="sectionp">
+                    <h2>Desarrollo web</h2>
+                    <p>esta es la seccion de desarrollo web</p>
+                </section>
+                <section id="desprot" class="sectionp">
+                    <h2>Desarrollo Prototipos</h2>
+                    <p>esta es la seccion de desarrollo de prototipos</p>
+                </section>
+                <section id="desjav" class="sectionp">
+                    <h2>Desarrollo javaScript</h2>
+                    <p>esta es la seccion de desarrollo de javaScript</p>
+                </section>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .titulo2 {
+        background-color: red;
+    }
+
+    .titulo1 {
+        color: white;
+        margin-top: 7px;
+    }
+
+    .parrafo1 {
+        color: white;
+        margin-top: 7px;
+    }
+
+    .seccion1 {
+        background-color: rgb(119, 0, 255);
+        padding: 30px;
+        border-radius: 15px;
+        width: 80%;
+    }
+
+    .img {
+        width: 300px;
+        display: block;
+        margin-top: 15px;
+        border: 5px solid rgb(0, 0, 0);
+    }
+
+    /*
+    seccion2
+    */
+
+    #seccion2 {
+        background: rgb(2, 212, 12);
+        border-radius: 15px;
+        padding: 30px;
+        width: 80%;
+    }
+
+    #img2 {
+        width: 300px;
+        margin-top: 15px;
+        border: 5px solid black;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        display: inline;
+    }
+
+    main {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #parrafo2 {
+        color: white;
+        margin-top: 7px;
+    }
+
+    #titulo2 {
+        color: white;
+        margin-top: 7px;
+    }
+
+    /*
+    seccion3
+    */
+
+    .titulo3 {
+        color: white;
+        margin-top: 7px;
+    }
+
+    .parrafo3 {
+        color: white;
+        margin-top: 7px;
+    }
+
+    .seccion3 {
+        background-color: red;
+        width: 80%;
+        border-radius: 15px;
+        padding: 30px;
+    }
+
+    .img3 {
+        width: 300px;
+        border: 5px solid black;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    .contenedor3 {
+        display: flex;
+        align-items: center;
+    }
+
+    /*
+    seccion 4
+    */
+
+    #titulo4 {
+        color: white;
+        margin-top: 7px;
+    }
+
+    #parrafo4 {
+        color: white;
+    }
+
+    #seccion4 {
+        background-color: rgb(0, 0, 0);
+        width: 80%;
+        border-radius: 15px;
+        padding: 30px;
+    }
+
+    #img4 {
+        display: none;
+    }
+
+    #contenedor4 {
+        display: flex;
+        
+    }
+</style>
+<body>
+    <main>
+        <h1 class="titulo2">visualizando display en CSS</h1>
+        <section class="seccion1">
+            <h2 class="titulo1">display: block</h2>
+            <p class="parrafo1">las imagenes aparencen una debajo de la otra</p>
+            <div class="contenedor1">
+                <img class="img" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/e8c5bf166549251.641a1c916cb36.jpg" alt="chevrolet corvette C6">
+                <img class="img" src="https://p.turbosquid.com/ts-thumb/lg/o4ubpS/Ql/tokyo.973/jpg/1742065305/600x600/fit_q87/c32bf24b27815d4c01404d6651310fa730563188/tokyo.973.jpg" alt="nissan silvia S15">
+
+            </div>
+        </section>
+        <section id="seccion2">
+            <h2 id="titulo2">display: inline</h2>
+            <p id="parrafo2">las imagenes se comporten como texto</p>
+            <div id="contenedor2">
+                <img id="img2" src="https://miana.digital/wp-content/uploads/2024/11/Lancer-EVO-9-1024x576.jpeg" alt="mitsubishi lancer evo">
+                <img id="img2" src="https://img.remediosdigitales.com/f81b7e/the-fast-and-the-furious--2-/1366_2000.jpg" alt="toyota supra mk4">
+            </div>
+        </section>
+        <section class="seccion3">
+            <h2 class="titulo3">display: flex</h2>
+            <p class="parrafo3">las imagenes se alinean por defecto</p>
+            <div class="contenedor3">
+                <img class="img3" src="https://images.unsplash.com/photo-1621135802920-133df287f89c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFtYm9yZ2hpbmklMjBhdmVudGFkb3J8ZW58MHx8MHx8fDA%3D" alt="lamborgini aventador">
+                <img class="img3" src="https://cdn.ferrari.com/cms/network/media/img/resize/6093ffe82b65b808f5eccb4c-ferrari-magazine-4dtubjFC4k.jpg" alt="ferrari J50">
+            </div>
+        </section>
+        <section id="seccion4">
+            <h2 id="titulo4">display: none</h2>
+            <p id="parrafo4">estas imagenes quedan ocultas</p>
+            <div id="contenedor4">
+                <img id="img4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStFPlEdmLM1IIceauk19ZjndiVw9EIUXkRHA&s" alt="Skyline GTR R34">
+                <img id="img4" src="https://static.wixstatic.com/media/2e3831_552ee2c2fc0c4ae5a673ac7e9d027a80~mv2.jpg/v1/fill/w_980,h_545,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/2e3831_552ee2c2fc0c4ae5a673ac7e9d027a80~mv2.jpg" alt="mitsubishi eclipse GSX">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
