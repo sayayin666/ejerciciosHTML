@@ -1,0 +1,19 @@
+1. ¿Cuál es la diferencia entre los atributos "name" e "id" en un input?
+
+RTA//=el atributo "name" se usa para identificar el campo del formulario cuando se envía al servidor, mientras que el atributo "id" se usa para identificar el elemento de forma única en la página, lo que permite su uso en JavaScript o CSS. 
+
+2. ¿Para qué sirve el atributo "for" en una etiqueta label?
+
+RTA//=sirve para asociar la etiqueta a un control de formulario (como un "input", "select", etc.) mediante su ID
+
+3. ¿Qué tipo de campo usarías para permitir al usuario seleccionar varias opciones?
+
+RTA//=Para permitir al usuario seleccionar varias opciones, se pueden usar casillas de verificación (checkbox) o cuadros de lista de selección múltiple. Las casillas de verificación son ideales para listas de opciones no excluyentes, donde el usuario puede marcar o desmarcar varias opciones.
+
+4. ¿Qué sucede si se omite el atributo "name" en un campo de formulario?
+
+RTA//=Si un campo de formulario carece del atributo "name", el servidor no recibirá el valor ingresado por el usuario en ese campo.
+
+5. ¿Por qué es importante usar la estructura correcta de etiquetas y atributos?
+
+RTA//=la estructura correcta de etiquetas y atributos en HTML es fundamental para construir una página web accesible, optimizada para los motores de búsqueda y fácil de leer y entender tanto para los usuarios como para las herramientas de desarrollo. 
